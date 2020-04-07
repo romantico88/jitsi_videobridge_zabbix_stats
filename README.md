@@ -22,5 +22,5 @@ Install The packet `jq` on zabbix-agent machines:
 
 ### Versions:
 
-Tested and implemated on Zabbix 4.2, but i depending on Simple UserParameter architecture (based on curl an jq) it should works on older Versions.
+Tested and implemated on Zabbix 4.2, but depending on Simple UserParameter architecture (based on curl an jq) it should works on older Versions.
 
