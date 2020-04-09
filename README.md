@@ -17,6 +17,6 @@ Add the XML template to throughout Zabbix GUI.
 
 Tested and implemated on Zabbix 4.2, but depending on Simple (based on libcurl and LDD) it should works on older Versions(tfirst zabbix version which where included JSONPAth). If will be any problem, please give me feedback.
 
-# Credits
+### Credits
 
 Special thanks to Arkadiusz Rdest, who was author of refactor to LDD.
