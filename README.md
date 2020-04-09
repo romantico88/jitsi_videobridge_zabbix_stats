@@ -3,24 +3,17 @@ An simple implementation of Jitsi Videobridge Statistics, to Zabbix.
 
 Jitsi Videobridge Stats. Based on Colibri stats bulit-in api to present Staticis from Jitsi Videobridge. I've added the most important data, some stats not added, but it is easy to add them by using the Zabbix Server GUI. 
 
+If you don't enabled Videobridge statistics, see Jitsi documenation below.
+
 ### Full Documentation of Jitsi Videobridge Colibri Stats
 
 `https://github.com/jitsi/jitsi-videobridge/blob/master/doc/statistics.md`
 
-1. Add the XML template to throughout Zabbix GUI.
-2. Add in following zabbix UserParameters on videobridge machine with installed zabbix-agent:
+The only thing what must you do is from Zabbix site is:
 
-```
-UserParameter=jvb.stats[*],curl -s http://localhost:8080/colibri/stats | jq '.$1'
-```
-
-### Requirements: 
-
-Install The packet `jq` on zabbix-agent machines:
-
-`apt install jq`
+Add the XML template to throughout Zabbix GUI.
 
 ### Versions:
 
-Tested and implemated on Zabbix 4.2, but depending on Simple UserParameter architecture (based on curl an jq) it should works on older Versions. If will be any problem, please give me feedback.
+Tested and implemated on Zabbix 4.2, but depending on Simple (based on libcurl and LDD) it should works on older Versions(tfirst zabbix version which where included JSONPAth). If will be any problem, please give me feedback.
 
