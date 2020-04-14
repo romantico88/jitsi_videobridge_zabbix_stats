@@ -8,6 +8,8 @@ If you don't enabled Videobridge statistics, see Jitsi documenation below.
 ### Full Documentation of Jitsi Videobridge Colibri Stats
 
 `https://github.com/jitsi/jitsi-videobridge/blob/master/doc/statistics.md`
+`https://github.com/jitsi/jitsi-videobridge/blob/master/doc/rest.md`
+
 
 The only thing what must you do is from Zabbix site is:
 
