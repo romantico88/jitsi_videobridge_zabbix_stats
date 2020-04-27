@@ -24,3 +24,4 @@ Tested and implemated on Zabbix 4.2, but depending on Simple (based on libcurl a
 
 * Release previous version 1.0
 * Configure triggers.
+* SDK callstats.io lib integration
