@@ -15,6 +15,11 @@ The only thing what must you do is from Zabbix site is:
 
 Add the XML template to throughout Zabbix GUI.
 
+### Macro for servername
+
+The template contains the macro JITSISERVER. This allows to override the default of localhost (127.0.0.1) in
+order to monitor a jitsi instance on another host from a zabbix agent.
+
 ### Versions:
 
 Tested and implemated on Zabbix 4.2, but depending on Simple (based on libcurl and LDD) it should works on older Versions(tfirst zabbix version which where included JSONPAth). If will be any problem, please give me feedback.
