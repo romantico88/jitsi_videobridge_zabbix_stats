@@ -138,6 +138,10 @@ https://github.com/jitsi/jitsi-videobridge/blob/master/doc/statistics.md</descri
                             <type>12</type>
                             <params>$.bit_rate_upload</params>
                         </step>
+                        <step>
+                            <type>1</type>
+                            <params>1024</params>
+                        </step>
                     </preprocessing>
                     <jmx_endpoint/>
                     <timeout>3s</timeout>
