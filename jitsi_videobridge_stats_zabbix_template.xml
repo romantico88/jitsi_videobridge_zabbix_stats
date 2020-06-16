@@ -69,6 +69,10 @@ https://github.com/jitsi/jitsi-videobridge/blob/master/doc/statistics.md</descri
                             <type>JSONPATH</type>
                             <params>$.bit_rate_upload</params>
                         </step>
+                        <step>
+                            <type>1</type>
+                            <params>1024</params>
+                        </step>
                     </preprocessing>
                     <master_item>
                         <key>web.page.get[{$JITSISERVER},/colibri/stats,8080]</key>
