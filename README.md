@@ -26,7 +26,7 @@ order to monitor a jitsi instance on another host from a zabbix agent.
 2. Add in following zabbix UserParameters on videobridge machine with installed zabbix-agent
 
 ```
-UserParameter=jvb.stats[*],curl -s curl -s http://localhost:8080/colibri/stats | jq '.$1'&#13;
+UserParameter=jvb.stats[*],curl -s curl -s http://localhost:8080/colibri/stats | jq '.'
 ```
 
 ### Versions:
