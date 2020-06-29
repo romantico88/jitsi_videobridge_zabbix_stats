@@ -24,6 +24,8 @@ order to monitor a jitsi instance on another host from a zabbix agent.
 
 Tested and implemated on Zabbix 4.2, but depending on Simple (based on libcurl and LDD) it should works on older Versions(tfirst zabbix version which where included JSONPAth). If will be any problem, please give me feedback.
 
+If newest version of this template will not run on older zabbix's verisons , please switch to 1.0/old branch to download UserParameter version.
+
 
 ### To Do:
 
