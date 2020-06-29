@@ -28,14 +28,3 @@ order to monitor a jitsi instance on another host from a zabbix agent.
 ```
 UserParameter=jvb.stats[*],curl -s curl -s http://localhost:8080/colibri/stats | jq '.'
 ```
-
-### Versions:
-
-Tested and implemated on Zabbix 4.2, but depending on Simple (based on libcurl and LDD) it should works on older Versions(tfirst zabbix version which where included JSONPAth). If will be any problem, please give me feedback.
-
-
-### To Do:
-
-* Release previous version 1.0
-* Configure triggers.
-* SDK callstats.io lib integration
