@@ -15,20 +15,21 @@ The only thing what must you do is from Zabbix site is:
 
 Add the XML template to throughout Zabbix GUI.
 
-### Macro for servername
+### MacroS
 
-The template contains the macro JITSISERVER. This allows to override the default of localhost (127.0.0.1) in
-order to monitor a jitsi instance on another host from a zabbix agent.
+The template contains the macros: 
+`{$JITSI_COLIBRI_HOST}` - An IP/FQDN of Jitsi Videobridge. Default: `localhost` (in most cases there is no needed to change this value)
+`{$JITSI_MEET_HOST}` - FQDN or IP of Prosody XMPP Server. Default: `meet.jitsi` (you must change this valute, mandatory)
 
 ### Versions:
 
-Tested and implemated on Zabbix 4.2, but depending on Simple (based on libcurl and LDD) it should works on older Versions(tfirst zabbix version which where included JSONPAth). If will be any problem, please give me feedback.
+Tested and implemated on Zabbix 4.2.6.
+
+Several people reported to me a problem with importing to 3><4.0 versions of zabbix. I can't reproduce the problem right know - you can try import an old version of this template (depending on UserParamFile, 1.0 Release), or if you have a time, find a sulution and create push request/give me a message.
 
 If newest version of this template will not run on older zabbix's verisons , please switch to 1.0/old branch to download UserParameter version.
 
 
 ### To Do:
 
-* Release previous version 1.0
-* Configure triggers.
 * SDK callstats.io lib integration
