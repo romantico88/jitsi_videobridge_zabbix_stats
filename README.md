@@ -1,9 +1,9 @@
 # Jitsi Videobridge Zabbix Stats
 An simple implementation of Jitsi Videobridge Statistics, to Zabbix. 
 
-Jitsi Videobridge Stats. Based on Colibri stats bulit-in api to present Staticis from Jitsi Videobridge. I've added the most important data, some stats not added, but it is easy to add them by using the Zabbix Server GUI. 
+Jitsi Videobridge Stats. Based on Colibri stats built-in api to present Statistics from Jitsi Videobridge. I've added the most important data, some stats were not added, but it is easy to add them by using the Zabbix Server GUI. 
 
-If you don't enabled Videobridge statistics, see Jitsi documenation below.
+If you haven't enabled Videobridge statistics, see Jitsi documentation below.
 
 ### Full Documentation of Jitsi Videobridge Colibri Stats
 
@@ -11,11 +11,11 @@ If you don't enabled Videobridge statistics, see Jitsi documenation below.
 `https://github.com/jitsi/jitsi-videobridge/blob/master/doc/rest.md`
 
 
-The only thing what must you do is from Zabbix site is:
+The only thing that you must do is from Zabbix site:
 
-Add the XML template to throughout Zabbix GUI.
+Add the XML template through Zabbix GUI.
 
-### MacroS
+### Macros
 
 The template contains the macros: 
 
@@ -28,9 +28,9 @@ The template contains the macros:
 
 Tested and implemated on Zabbix 4.2.6.
 
-Several people reported to me a problem with importing to 3><4.0 versions of zabbix. I can't reproduce the problem right know - you can try import an old version of this template (depending on UserParamFile, 1.0 Release), or if you have a time, find a sulution and create push request/give me a message.
+Several people reported to me a problem with importing to 3><4.0 versions of zabbix. I can't reproduce the problem right now - you can try import an older version of this template (depending on UserParamFile, 1.0 Release), or if you have a time, find a solution and create pull request/give me a message.
 
-If newest version of this template will not run on older zabbix's verisons , please switch to 1.0/old branch to download UserParameter version.
+If newest version of this template will not run on older zabbix's versions , please switch to 1.0/old branch to download UserParameter version.
 
 
 ### To Do:
