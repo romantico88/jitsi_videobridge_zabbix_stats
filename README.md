@@ -19,10 +19,10 @@ Add the XML template through Zabbix GUI.
 
 The template contains the macros: 
 
-`{$JITSI_COLIBRI_HOST}` - An IP/FQDN of Jitsi Videobridge. Default: `localhost` (in most cases there is no needed to change this value)
+`{$JITSI_COLIBRI_HOST}` - An IP/FQDN of Jitsi Videobridge. Default: `localhost` (in most cases there is no need to change this value)
 
 
-`{$JITSI_MEET_HOST}` - FQDN or IP of Prosody XMPP Server. Default: `meet.jitsi` (you must change this valute, mandatory)
+`{$JITSI_MEET_HOST}` - FQDN or IP of Prosody XMPP Server. Default: `localhost` (you must change this value if your Prosody XMPP Server is hosted on a different server)
 
 ### Versions:
 
