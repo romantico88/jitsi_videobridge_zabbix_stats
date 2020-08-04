@@ -4055,7 +4055,7 @@ https://github.com/romantico88/jitsi_videobridge_zabbix_stats</description>
                 </macro>
                 <macro>
                     <macro>{$JITSI_MEET_HOST}</macro>
-                    <value>meet.jitsi</value>
+                    <value>localhost</value>
                 </macro>
             </macros>
             <templates/>
